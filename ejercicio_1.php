@@ -9,8 +9,11 @@
 <body>
     <?php
         header('Content-Type: text/html; charset=UTF-8');
-        echo "<br/>O valor da multiplicación e: ".$_REQUEST["primernum * segundonum"];
-        
+        $primero=$_REQUEST["1"];
+        $segundo=$_REQUEST["2"];
+        $total=$primero*$segundo;
+        echo $total;
+       
     ?>
 </body>
 </html>
