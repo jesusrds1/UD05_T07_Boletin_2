@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php
+        header('Content-Type: text/html; charset=UTF-8');
+        echo "<br/>O valor da multiplicación e: ".$_REQUEST["primernum * segundonum"];
         
     ?>
 </body>
