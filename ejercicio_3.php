@@ -7,12 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    
-    $n1 = $_GET['1'];
-    $n2 = $_GET['2'];
-     $mul=$n1*$n2;
-     echo "$mul";
+<?php
+     $e = 0.0060;
+     $p = $_GET['pesetas'];
+       $multiplicacion=$e*$p;
+        echo "$p peseta son $multiplicacion euros";
     ?>
 </body>
 </html>
